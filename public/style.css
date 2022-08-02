@@ -1,0 +1,30 @@
+.word {
+  display: flex;
+}
+
+body {
+  text-align: center;
+  background: #121111;
+  color: white;
+}
+
+.words {
+  width: 100%;
+}
+
+.word {
+  justify-content: center;
+}
+
+.char {
+  /* center chars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  background-color: #000000;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(38, 35, 34);
+}
